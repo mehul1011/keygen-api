@@ -1,0 +1,28 @@
+{
+  "name": "keyholder-server",
+  "version": "1.0.0",
+  "description": "Backend server for the keygen project",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehul1011/keygen-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "redis",
+    "keygen"
+  ],
+  "author": "aintsay",
+  "license": "MIT",
+  "homepage": "https://github.com/mehul1011/keygen-api",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "jsonwebtoken": "^8.1.0",
+    "redis": "^2.8.0"
+  }
+}
